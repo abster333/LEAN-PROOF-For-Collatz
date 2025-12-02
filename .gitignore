@@ -1,0 +1,30 @@
+# Lean / Lake build artifacts
+**/.lake/
+**/build/
+**/lake-packages/
+**/tmp/
+**/tmp.*
+
+# Generated Lean outputs
+*.olean
+*.trace
+*.elab.json
+*.ast.json
+*.log
+*.aux
+
+# Tooling caches
+/.elan/
+/.cache/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.orig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
